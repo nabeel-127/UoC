@@ -1,0 +1,1 @@
+In order for the exception to be thrown, remove the 'testFile.txt' file at the root of this project.

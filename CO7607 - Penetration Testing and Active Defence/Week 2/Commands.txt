@@ -1,0 +1,12 @@
+ifconfig
+
+nmap -sn 192.168.XXX.0/24 OR fping -a -g 192/168.XXX.0/24
+
+nmap -A 192.168.56.107
+
+nmap -sn 192.168.56.107
+nmap -sn -O 192.168.56.107
+nmap -sS -O 192.168.56.107
+
+go to "192.168.56.107" in browser
+then wireshark scan

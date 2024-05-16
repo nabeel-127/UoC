@@ -2,47 +2,68 @@
 
 	<head>
 		<link rel="stylesheet" href="styles.css"> 
-		<title>Hello World but in title!</title>
-		<nav>
-			<a href="https://google.com">HOME</a> |
-			<a href="https://bing.com">ABOUT</a> |
-			<a href="https://duckduckgo.com">CONTACT</a> |
-			<a href="https://yahoo.com">LOGIN</a>
-		</nav>
+		<title>A useless website</title>
+		<meta name="viewport" content="width=device-width, inital-scale=1.0">
 	</head>
 	<body>
+		<div class="FlexBoxHeading">
+			<!-- <div><nav>
+				<a href="https://google.com">HOME</a> |
+				<a href="https://bing.com">ABOUT</a> |
+				<a href="https://duckduckgo.com">CONTACT</a> |
+				<a href="https://yahoo.com">LOGIN</a>
+			</nav></div> -->
+			<div><a href="https://google.com" class="NavigationBar">HOME</a></div>
+			<div><a href="https://bing.com" class="NavigationBar">ABOUT</a></div>
+			<div><a href="https://duckduckgo.com" class="NavigationBar">CONTACT</a></div>
+			<div><a href="https://yahoo.com" class="NavigationBar">LOGIN</a></div>
+		</div>
 		<h1 class="HeadingStyle">Hello World!</h1>
-		<b1 class="FontStyle">Welcome to my shitty website</b1>
+		<b1>Welcome to my shitty website</b1>
+	
+		<br><br><br>
 
-		<h2>Heres a shitty list</h2>
-		<ul>
-			<li>Item 1</li>
-			<li>Item 2</li>
-			<li>Item 3</li>
-			<li>Item 4</li>
-		</ul>
-		<h3>Heres another equally useless list</h3>
-		<ol>
-			<li>Item 5</li>
-			<li>Item 6</li>
-			<li>Item 7</li>
-			<li>Item 8</li>
-		</ol>
-		<h4>Heres another even more pointless list</h4>
-		<dl>
-			<dt>Item 5</dt>
-			<dd>Item 5 definition</dd>
-			<dt>Item 6</dt>
-			<dd>Item 6 definition</dd>
-		</dl>
+		<div id="CustomList"><h3>Educational History</h4>
+			<dl>
+				<dt>Master</dt>
+				<dd>Ongoing</dd>
+				<dt>Bachelors of Science in Electrical Engineering</dt>
+				<dd>CGPA: 3.52</dd>
+			</dl>
+		</div>
 
-		<a href="https://cust.edu.pk/">My previous uni</a>
+		<div class="FlexBox">
+			<div>
+				<h3>Heres a shitty list</h2>
+				<ul>
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+					<li>Item 4</li>
+				</ul>
+			</div>
+			<div>
+				<h3>Heres another equally useless list</h3>
+				<ol>
+					<li>Item 5</li>
+					<li>Item 6</li>
+					<li>Item 7</li>
+					<li>Item 8</li>
+				</ol>
+			</div>
+		</div>
+		
+		
 		<br>
-		<img src="./external/Image_1.jpeg" alt="Photo of an image" width="200"/>
+		<div><a href="https://cust.edu.pk/">My previous university</a></div>
 		<br>
-		<img src="./external/Image_2.jpg" alt="Photo of another image" width="200"/>
-
-		<table>
+		<div class="FlexBox">
+		<div><img src="./external/Image_1.jpeg" alt="Photo of an image" class="Image"/></div>
+		<br>
+		<div><img src="./external/Image_2.jpg" alt="Photo of another image" class="Image"/></div>
+		</div>
+		
+		<table class="center">
 			<thead>
 				<tr>
 					<th>Course</th>

@@ -1,18 +1,93 @@
 .HeadingStyle {
-	color:chartreuse;
+	color:aqua;
 	font-size: 4vw;
 	font-family:Arial, Helvetica, sans-serif;
-	padding: 2em;
+	padding-top: 5.5vw;
+	padding-bottom: 0vw;
 }
-.FontStyle {
-	color:crimson;
-	font-size: 1rem;
-	font-family:Arial, Helvetica, sans-serif;
-	padding: 1vw;
+.FlexBox {
+	display: flex;
+	flex-wrap:nowrap;
+	flex-direction: row;
+	justify-content:center;
+}
+.FlexBox > div {
+	color:white;
+	padding: 4vw;
+}
+.FlexBoxHeading {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color:#606060;
+	position:fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+}
+.FlexBoxHeading > div {
+	border-radius: 5px;
+	background-color: #222222;
+	margin: 10px;
+	/* padding: 15px; */
+	padding-top: .5vw;
+	padding-bottom: .5vw;
+	padding-left: 3vw;
+	padding-right: 3vw;
+	font-size: 17.5px;
+	/* width:10vw; */
+}
+.FlexBoxHeading > div:hover {
+	background-color: #111111;
+}
+.FlexBoxHeading > div:active {
+	background-color: #353535;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.NavigationBar {
+	color: white;
+	text-decoration: none;
+}
+.Image {
+	width: 40vw;
+}
+#CustomList {
+	margin: auto;
+	align-content: center;
+	text-align: center;
+	background-color: black;
+	border-radius: 10px;
+	width: 50%;
+}
+body {
+	background-color:#404040;
+	color: white;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+	color:#6FC3DF;
+}
+dl {
+	text-align: center;
+	/* margin: 0; */
+	/* padding: 0; */
+}
+dd {
+	margin: 0;
+	padding-left: 0;
+	padding-bottom: 1vw;
 }
 ul {
-	color:aqua;
+	text-align: left;
 }
 ol {
-	color:blueviolet;
+	text-align: left;
+}
+table {
+	text-align: center;
 }

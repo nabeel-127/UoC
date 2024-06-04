@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+	<head>
+		<link rel="stylesheet" href="styles.css"> 
+		<script src="script.js"></script>
+		<title>A useless website</title>
+		<meta name="viewport" content="width=device-width, inital-scale=1.0">
+	</head>
+	<body>
+		<div class="FlexBox1Heading">
+			<!-- <div><nav>
+				<a href="https://google.com">HOME</a> |
+				<a href="https://bing.com">ABOUT</a> |
+				<a href="https://duckduckgo.com">CONTACT</a> |
+				<a href="https://yahoo.com">LOGIN</a>
+			</nav></div> -->
+			<div><a href="https://google.com" class="NavigationBar">HOME</a></div>
+			<div><a href="https://bing.com" class="NavigationBar">ABOUT</a></div>
+			<div><a href="https://duckduckgo.com" class="NavigationBar">CONTACT</a></div>
+			<div><a href="https://yahoo.com" class="NavigationBar">LOGIN</a></div>
+		</div>
+		<h1 class="HeadingStyle">Hello World!</h1>
+		<b1>Welcome to my shitty website</b1>
+	
+		<br><br><br>
+
+		<div id="CustomList"><h3>Educational History</h4>
+			<dl>
+				<dt>Master of Science in Computer Science</dt>
+				<dt><a href="https://www.chester.ac.uk/">University of Chester</a></dt>
+				<dd>Ongoing...</dd>
+				<dt>Bachelors of Science in Electrical Engineering</dt>
+				<dt><a href="https://cust.edu.pk/">Capital University of Science and Technology</a></dt>
+				<dd>CGPA: 3.52</dd>
+			</dl>
+		</div>
+
+		<br><br>
+		<div class="FlexBox2">	
+			<div>
+			<h2>Search bars for convenience</h2>
+			<form id="SearchForm" action="https://www.bing.com/search" method="GET">
+				<label for="SearchBing">Enter search term: </label>
+				<input type="text" id="SearchBing" name="q" value="google" required>
+				<button type="submit">Search Bing</button>
+			</form>
+			<form id="SearchForm" action="https://www.google.com/search" method="GET">
+				<label for="SearchGoogle">Enter search term: </label>
+				<input type="text" id="SearchGoogle" name="q" value="bing" required>
+				<button type="submit">Search Google</button>
+			</form>
+			<form id="SearchForm" action="https://www.amazon.co.uk/s" method="GET">
+				<label for="SearchAmazon">Enter search term: </label>
+				<input type="text" id="SearchAmazon" name="k" value="laptop" required>
+				<button type="submit">Search Amazon</button>
+			</form>
+			</div>
+		</div>
+
+		<div class="FlexBox1">
+			<div>
+				<h3>Heres a shitty list</h2>
+				<ul>
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+					<li>Item 4</li>
+				</ul>
+			</div>
+			<div>
+				<h3>Heres another equally useless list</h3>
+				<ol>
+					<li>Item 5</li>
+					<li>Item 6</li>
+					<li>Item 7</li>
+					<li>Item 8</li>
+				</ol>
+			</div>
+		</div>
+		
+		
+		<!-- <br>
+		<div><a href="https://cust.edu.pk/">My previous university</a></div>
+		<br> -->
+		<div class="FlexBox1">
+		<div><img src="./external/Image_1.jpeg" alt="Photo of an image" class="Image"/></div>
+		<br>
+		<div><img src="./external/Image_2.jpg" alt="Photo of another image" class="Image"/></div>
+		</div>
+		
+		<table class="center">
+			<thead>
+				<tr>
+					<th>Course</th>
+					<th>Grade</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Software Development Techniques</td>
+					<td>C</td>
+				</tr>
+				<tr>
+					<td>Research Methods</td>
+					<td>F</td>
+				</tr>
+				<tr>
+					<td>Concepts of User Experience</td>
+					<td>F</td>
+				</tr>
+			</tbody>
+			<!-- <tfoot>
+				<tr>
+					<td>Footer Label</td>
+					<td>Footer Label data</td>
+				</tr>
+			</tfoot> -->
+		</table>
+
+		<br>
+
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Un9-jAqiuzo?cc_load_policy=1" frameborder="0" allowfullscreen></iframe>
+		<br>
+
+		<video id="youtube-video" width="560" height="315" controls>
+			<!-- <source src="https://www.youtube.com/watch?v=S7TUe5w6RHo" type="video/youtube"> -->
+			<source src="./external/4.5 Billion Years in 1 Hour.mp4" type="video/mp4">
+			<track src="./external/[English] 4.5 Billion Years in 1 Hour.vtt" kind="subtitles" srclang="en" label="English">
+		</video>
+
+		<br>
+		
+		<div class="FlexBox2">	
+			<div>
+			<h3>User Registration</h3>
+			<form id="RegistrationForm" action="https://scunningham.linux.studentwebserver.co.uk/demos/echo.php" method="POST">
+				<div>
+					<label for="Username">Username:</label>
+					<input type="text" id="Username" name="username" required>
+				</div>
+				<div>
+					<label for="Password">Password:</label>
+					<input type="password" id="Password" name="password" required>
+				</div>
+				<div>
+					<label for="FirstName">First Name:</label>
+					<input type="text" id="FirstName" name="firstname" maxlength="18" required>
+				</div>
+				<div>
+					<label for="LastName">Last Name:</label>
+					<input type="text" id="LastName" name="lastname" maxlength="40" required>
+				</div>
+				<div>
+					<label for="Age">Age:</label>
+					<input type="number" id="Age" name="age" min="0" max="120" required>
+				</div>
+				<div>
+					<label for="Email">Email:</label>
+					<input type="email" id="Email" name="email" required>
+				</div>
+				<div>
+					<label for="DateOfBirth">Date of Birth:</label>
+					<input type="date" id="DateOfBirth" name="dob" required>
+				</div>
+				<div>
+					<label for="FavouriteAnimal">Favourite Animal:</label>
+					<select id="FavouriteAnimal" name="favourite-animal" required>
+						<option value="">Select an animal</option>
+						<option value="cat">Cat</option>
+						<option value="dog">Dog</option>
+						<option value="lizard">Lizard</option>
+					</select>
+				</div>
+				<div>
+					<button type="submit">Register</button>
+				</div>
+			</form>
+			</div>
+		</div>
+	</body>
+
+</html>

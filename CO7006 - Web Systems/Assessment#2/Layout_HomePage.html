@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Postcode Information</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="container">
+		<h1>Postcode Information</h1>
+		<div id="postcode-list">
+			<!-- Dynamic list of postcodes will be rendered here -->
+		</div>
+		<div id="postcode-info">
+			<!-- Selected postcode information will be displayed here -->
+		</div>
+		<div id="distance-calculation">
+			<h2>Calculate Distance</h2>
+			<form id="distance-form">
+				<select id="postcode1">
+					<!-- Dynamic list of postcodes for selection -->
+				</select>
+				<select id="postcode2">
+					<!-- Dynamic list of postcodes for selection -->
+				</select>
+				<button type="button" onclick="calculateDistance()">Calculate</button>
+			</form>
+			<p id="distance-result"></p>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

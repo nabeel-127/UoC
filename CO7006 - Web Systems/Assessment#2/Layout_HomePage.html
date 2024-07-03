@@ -4,31 +4,29 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Postcode Information</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="Stylesheet.css">
+	<script src="Script.js"></script>
 </head>
+
 <body>
+	<h1>Postcode look-up</h1>
 	<div id="container">
-		<h1>Postcode Information</h1>
-		<div id="postcode-list">
-			<!-- Dynamic list of postcodes will be rendered here -->
-		</div>
-		<div id="postcode-info">
-			<!-- Selected postcode information will be displayed here -->
-		</div>
-		<div id="distance-calculation">
-			<h2>Calculate Distance</h2>
-			<form id="distance-form">
-				<select id="postcode1">
-					<!-- Dynamic list of postcodes for selection -->
+		<div class="FlexBox1">
+			<div>	
+				<label for="postcodeDropdown1">Select the 1st Postcode </label>
+				<select id="postcodeDropdown1">
+					<!-- Options will be populated by Script.js -->
 				</select>
-				<select id="postcode2">
-					<!-- Dynamic list of postcodes for selection -->
-				</select>
-				<button type="button" onclick="calculateDistance()">Calculate</button>
-			</form>
-			<p id="distance-result"></p>
+			</div>
+				<div>	
+					<label for="postcodeDropdown2">Select the 2nd Postcode </label>
+					<select id="postcodeDropdown2">
+						<!-- Options will be populated by Script.js -->
+					</select>
+				</div>
 		</div>
+		<button onclick="calculateDistance()">Check Distance</button>
 	</div>
-	<script src="script.js"></script>
+	<script src="Script.js"></script>
 </body>
 </html>
